@@ -2,6 +2,9 @@ html{
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
+body{
+  margin: 0 ;
+}
 /* Navigation styles */
 
 .navbar-default .navbar-nav>li.active>a {
@@ -95,4 +98,40 @@ footer{
 }
 .footer-content .footer-button .btn-primary{
   background-color:#399bd1;
+}
+.image-container img{
+  overflow:hidden;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .banner-text h1 {
+    font-size: 5rem;
+  }
+
+  .banner-text p {
+    width: 100%;
+  }
+
+  .footer-content p {
+    width: 100%;
+  }
+  .description{
+      width:100%;
+  }
+
+
+
+  }
+}
+@media only screen and (max-width: 480px) {
+
+  .banner-text h1 {
+    font-size: 4rem;
+  }
 }
