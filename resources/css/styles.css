@@ -42,4 +42,56 @@ html{
   padding:1.3rem 0;
   width: 11.4rem;
   margin-top: 2.8rem;
+  background-color:#399bd1;
+
+}
+.featured-project h3{
+  font-size: 1.7rem;
+  font-weight:bold;
+  color:#399bd1;
+}
+.project-heading{
+  padding-bottom: 20px;
+}
+.project-title h3{
+  color:black;
+  font-size:1rem;
+}
+.product-categories h1{
+  font-size:1.3rem;
+  font-weight:bold;
+}
+.product-categories li{
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+.project-item .image-container {
+  overflow:hidden;
+}
+.project-item h3{
+  color:black;
+  font-size:1.3rem;
+}
+.project-item{
+  padding-bottom: 5.85rem;
+}
+footer{
+  background-color: #f3f3f3;
+  text-align: center;
+  width:100%;
+}
+.footer-content{
+  padding: 5.2rem 0;
+}
+.footer-content p{
+  width:42rem;
+  margin: 0 auto;
+}
+.footer-content h1{
+  padding-bottom: 1.4rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.footer-content .footer-button .btn-primary{
+  background-color:#399bd1;
 }
