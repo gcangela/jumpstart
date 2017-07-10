@@ -130,7 +130,9 @@ footer{
   }
 }
 @media only screen and (max-width: 480px) {
-
+  .logo {
+    display: none;
+  }
   .banner-text h1 {
     font-size: 4rem;
   }
