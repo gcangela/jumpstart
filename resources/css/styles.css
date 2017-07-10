@@ -78,10 +78,12 @@ html{
 footer{
   background-color: #f3f3f3;
   text-align: center;
-  width:100%;
+  
+
 }
 .footer-content{
   padding: 5.2rem 0;
+
 }
 .footer-content p{
   width:42rem;
