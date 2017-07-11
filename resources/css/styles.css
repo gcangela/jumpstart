@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html{
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -15,6 +18,15 @@ body{
 
 .jumbotron-bike{
   background-image: url("../images/jumbotron-bike.jpg");
+}
+.jumbotron-beer{
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+.jumbotron-duffel{
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+.jumbotron-flowers{
+  background-image: url("../images/jumbotron-flowers.jpg");
 }
 .jumbotron{
   text-shadow: 1px 1px 0 #000;
@@ -101,8 +113,31 @@ footer{
 }
 .image-container img{
   overflow:hidden;
+  opacity: 0.7;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
 }
-
+.image-container img:hover{
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   transform: scale(1.3);
+}
+.image-container{
+  overflow: hidden;
+}
+#image img{
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+}
+.projects h2{
+  font-size:1.7rem;
+  font-weight: bold;
+  color:#399bd1;
+}
 
 /* media queries */
 @media only screen and (max-width: 768px) {
